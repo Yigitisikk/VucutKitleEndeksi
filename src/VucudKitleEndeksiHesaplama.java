@@ -11,7 +11,7 @@ public class VucudKitleEndeksiHesaplama {
         System.out.print("Kilonuzu giriniz : ");
         kilo = dmp.nextDouble();
 
-        vucutKitleEndeksi = kilo / boy / boy;
+        vucutKitleEndeksi = kilo / (boy * boy);
 
         System.out.print("Vücut kitle endeksiniz : " + vucutKitleEndeksi);
     }
